@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments and secrets
+.venv/
+venv/
+.env
+
+# Editors
+.vscode/
+.idea/
+
+# Frontend
+node_modules/
+
+# Runtime and generated data (must remain outside the repository)
+logs/
+data/
+local-data/
+generated/
+work/
