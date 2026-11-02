@@ -1,0 +1,4 @@
+# Laptop profile.
+trigger:
+  wake_word_enabled: true
+  hotkey_enabled: true

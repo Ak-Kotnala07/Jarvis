@@ -1,0 +1,30 @@
+# Safe example configuration; keep credentials in the OS user-data directory, not this file.
+user:
+  name: "Example User"
+trigger:
+  wake_word_enabled: true
+  hotkey_enabled: true
+  wake_word: "jarvis"
+  hotkey: "ctrl+shift+j"
+providers:
+  stt_failover: ["groq_whisper", "faster_whisper"]
+  llm_failover: ["gemini", "groq", "ollama"]
+  tts_failover: ["kokoro", "system_tts"]
+sensitive_mode: true
+paths:
+  allowed_folders: ["~/Documents"]
+apps:
+  allowed: ["notepad"]
+shell:
+  allowed_commands: ["echo"]
+limits:
+  tool_timeout_seconds: 30
+  max_tool_calls_per_request: 5
+greeting:
+  enabled: true
+hud:
+  enabled: false
+  host: "127.0.0.1"
+  port: 8765
+autostart:
+  enabled: false

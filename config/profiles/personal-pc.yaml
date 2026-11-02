@@ -1,0 +1,4 @@
+# Personal PC profile.
+trigger:
+  wake_word_enabled: true
+  hotkey_enabled: false
