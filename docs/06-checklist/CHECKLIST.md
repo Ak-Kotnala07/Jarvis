@@ -25,6 +25,9 @@ Purpose: track delivery phases and linked feature work.
 
 ## Phase 2: Tool system and safety
 
+- [x] Documentation: [Part 1 security threat model and permission levels](../03-security/threat-model.md)
+  - Edge: Documented threat and approval cases.
+  - Test: Local Markdown/link sanity check.
 - [ ] [F05: Tool system and permissions](../02-features/F05-tool-system-and-permissions.md)
   - Edge: TODO
   - Test: TODO
