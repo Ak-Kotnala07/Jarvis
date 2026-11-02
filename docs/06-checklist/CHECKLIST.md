@@ -4,6 +4,9 @@ Purpose: track delivery phases and linked feature work.
 
 ## Phase 0: Foundation
 
+- [x] Documentation: [Part 3 architecture overview, process, lifecycle, state, and startup](../01-architecture/system-overview.md)
+  - Edge: Documented crash, hang, and degraded paths.
+  - Test: Local Markdown/link sanity check.
 - [ ] [F01: Voice loop](../02-features/F01-voice-loop.md)
   - Edge: TODO
   - Test: TODO
