@@ -13,6 +13,9 @@ Purpose: track delivery phases and linked feature work.
 - [x] Documentation: [Part 5 configuration, data, HUD, manifest, and error specifications](../01-architecture/config-spec.md)
   - Edge: Documented invalid configuration and protocol rejection.
   - Test: Local Markdown/link sanity check.
+- [x] Documentation: [Part 6 feature, test, and traceability specifications](traceability-matrix.md)
+  - Edge: Consolidated edge and adversarial cases.
+  - Test: Local Markdown/link sanity check.
 - [ ] [F01: Voice loop](../02-features/F01-voice-loop.md)
   - Edge: TODO
   - Test: TODO
