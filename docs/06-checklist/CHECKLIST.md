@@ -10,6 +10,9 @@ Purpose: track delivery phases and linked feature work.
 - [x] Documentation: [Part 4 component contracts](../01-architecture/components-and-contracts.md)
   - Edge: Documented normalized tool-call rejection and failover.
   - Test: Local Markdown/link sanity check.
+- [x] Documentation: [Part 5 configuration, data, HUD, manifest, and error specifications](../01-architecture/config-spec.md)
+  - Edge: Documented invalid configuration and protocol rejection.
+  - Test: Local Markdown/link sanity check.
 - [ ] [F01: Voice loop](../02-features/F01-voice-loop.md)
   - Edge: TODO
   - Test: TODO
